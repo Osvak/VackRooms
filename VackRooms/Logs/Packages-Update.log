@@ -1,5 +1,5 @@
 
-=== Thu May  5 11:10:33 2022
+=== Thu May  5 11:39:47 2022
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
@@ -21,7 +21,6 @@ The following packages were added:
   com.unity.modules.jsonserialize@1.0.0
   com.unity.modules.particlesystem@1.0.0
   com.unity.modules.physics@1.0.0
-  com.unity.modules.physics2d@1.0.0
   com.unity.modules.screencapture@1.0.0
   com.unity.modules.terrain@1.0.0
   com.unity.modules.terrainphysics@1.0.0
@@ -37,11 +36,13 @@ The following packages were added:
   com.unity.modules.unitywebrequestwww@1.0.0
   com.unity.modules.vehicles@1.0.0
   com.unity.modules.video@1.0.0
-  com.unity.modules.vr@1.0.0
   com.unity.modules.wind@1.0.0
-  com.unity.modules.xr@1.0.0
   com.unity.test-framework@1.1.24
   com.unity.textmeshpro@3.0.6
   com.unity.timeline@1.5.5
   com.unity.ugui@1.0.0
   com.unity.visualscripting@1.6.1
+The following packages were updated:
+  com.unity.xr.management from version 4.0.1 to 4.0.5
+  com.unity.xr.oculus from version 1.8.1 to 1.9.1
+  com.unity.xr.windowsmr from version 4.4.1 to 5.3.0
