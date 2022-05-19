@@ -215,3 +215,4 @@ Received Import Request.
   path: Assets/Prefabs/Sample Room.prefab
   artifactKey: Guid(c256431753bc0c940bdb3be97ae1eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Sample Room.prefab using Guid(c256431753bc0c940bdb3be97ae1eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d9054517b07cc2814e733fe7e70d6f') in 0.027875 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
