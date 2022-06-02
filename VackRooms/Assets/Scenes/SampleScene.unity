@@ -722,7 +722,7 @@ MonoBehaviour:
     type: 3}
   verticalLook: {fileID: 4583545717655941650, guid: 97ba0778d3dea4144be600b4d938eb0d,
     type: 3}
-  lookSpeed: 1
+  lookSpeed: 0.5
   cameraTransform: {fileID: 1798888937}
 --- !u!54 &557529584
 Rigidbody:
