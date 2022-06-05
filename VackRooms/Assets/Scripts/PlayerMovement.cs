@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public string room;
     public float force;
     public InputActionReference wKey;
     GameObject player;
@@ -27,5 +28,10 @@ public class PlayerMovement : MonoBehaviour
     void Stop(InputAction.CallbackContext obj)
     {
         rb.velocity = Vector3.zero;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        room = other.name;
     }
 }
