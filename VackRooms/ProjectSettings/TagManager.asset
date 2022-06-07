@@ -6,11 +6,13 @@ TagManager:
   tags:
   - Room
   - PuzzleRoom
+  - Controller
+  - Doors
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
@@ -42,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2487756487
     locked: 0
