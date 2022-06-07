@@ -17,6 +17,7 @@ public class PuzzleNo1 : MonoBehaviour
 {
     public GameObject[] buttons;
     public GameObject doors;
+    public GameObject companionCube;
 
     private float counter = 0f;
 
@@ -111,6 +112,7 @@ public class PuzzleNo1 : MonoBehaviour
             state = PuzzleState.CORRECT4;
 
             doors.SetActive(false);
+            companionCube.SetActive(true);
             return;
         }
 
