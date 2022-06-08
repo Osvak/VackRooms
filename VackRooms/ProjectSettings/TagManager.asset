@@ -8,6 +8,7 @@ TagManager:
   - PuzzleRoom
   - Controller
   - Doors
+  - CompanionCube
   layers:
   - Default
   - TransparentFX

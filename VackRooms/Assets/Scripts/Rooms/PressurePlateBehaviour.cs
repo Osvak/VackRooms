@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CompanionCubeBehaviour : MonoBehaviour
+public class PressurePlateBehaviour : MonoBehaviour
 {
-    public bool touched;
+    public bool activated = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +20,11 @@ public class CompanionCubeBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.transform.tag == "Controller" && !touched)
+        //Pasan cosas de terminar juego
+        if(other.transform.tag == "CompanionCube")
         {
-            touched = true;
+            activated = true;
+            Debug.Log("TE PASASTE EL GEIMU");
         }
     }
 }
