@@ -23,6 +23,7 @@ public class IntroScript : MonoBehaviour
         {
             Debug.Log("KFADKLSHFADSHKLFADSHLAHSFKLADHSKLFHAKLSFHADKLSHAFSKLF");
             player.transform.position = new Vector3(23, 0, 0.85f);
+            GameObject.Find("Intro").GetComponent<AudioSource>().enabled = false;
         }  
     }
 }
