@@ -23,6 +23,7 @@ public class RoomsManager : MonoBehaviour
     {
         rooms = GameObject.FindGameObjectsWithTag("Room");
         puzzleRooms = GameObject.FindGameObjectsWithTag("PuzzleRoom");
+        GameObject.Find("PuzzleRoom_No.3").SetActive(false);
 
         playerMovementScript = player.GetComponent<PlayerMovement>();
 
