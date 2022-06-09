@@ -9,6 +9,7 @@ TagManager:
   - Controller
   - Doors
   - CompanionCube
+  - Intro
   layers:
   - Default
   - TransparentFX
