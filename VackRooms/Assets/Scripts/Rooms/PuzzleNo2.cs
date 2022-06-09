@@ -32,7 +32,6 @@ public class PuzzleNo2 : MonoBehaviour
         if(cCB.touched && asserted)
         {
             room.SetActive(true);
-            room1.SetActive(false);
             tripod.SetActive(false);
             companionCube.transform.position = cCSpawnPoint.transform.position;
             asserted = false;
