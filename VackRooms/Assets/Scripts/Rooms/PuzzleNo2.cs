@@ -6,7 +6,6 @@ public class PuzzleNo2 : MonoBehaviour
 {
     public GameObject companionCube;
     public GameObject room;
-    public GameObject room1;
     public GameObject tripod;
     public GameObject cCSpawnPoint;
 

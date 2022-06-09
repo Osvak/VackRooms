@@ -62,7 +62,7 @@ public class RoomsManager : MonoBehaviour
                         j++;
                         for (int k = 0; k < puzzleRooms.Length; k++)
                         {
-                            if (rooms[i].transform.position == puzzleRooms[k].transform.position)
+                            if (rooms[i].transform.position == puzzleRooms[k].transform.position && puzzleRooms[k].activeInHierarchy)
                             {
                                 rooms[i].transform.position = new Vector3(3000, 0, 3000);
                             }
@@ -74,7 +74,7 @@ public class RoomsManager : MonoBehaviour
                     j++;
                     for (int k = 0; k < puzzleRooms.Length; k++)
                     {
-                        if (rooms[i].transform.position == puzzleRooms[k].transform.position)
+                        if (rooms[i].transform.position == puzzleRooms[k].transform.position && puzzleRooms[k].activeInHierarchy)
                         {
                             rooms[i].transform.position = new Vector3(3000, 0, 3000);
                         }
