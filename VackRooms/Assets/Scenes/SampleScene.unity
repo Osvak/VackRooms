@@ -75617,7 +75617,7 @@ Transform:
   m_GameObject: {fileID: 4553422887971435866}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.14, y: 0.50000036, z: -189.99}
-  m_LocalScale: {x: 150, y: 150, z: 150}
+  m_LocalScale: {x: 95, y: 95, z: 95}
   m_Children:
   - {fileID: 624935088}
   - {fileID: 25511420}
@@ -80841,7 +80841,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &4553422887971435867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80893,7 +80893,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4553422887971435866}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 80991f89e7e10dd43977ca801b066c0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 453598665}
@@ -80962,7 +80962,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 25511420}
+  m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
   m_MovementType: 2
   m_VelocityDamping: 1
