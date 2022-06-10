@@ -100839,6 +100839,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 4971808773683561257}
+  mixers:
+  - {fileID: 6038152599759031206, guid: 179a352deb4f64b4ab7c9d15e6f8751c, type: 2}
+  - {fileID: -1362559951281158430, guid: 179a352deb4f64b4ab7c9d15e6f8751c, type: 2}
 --- !u!33 &6568240228211887254
 MeshFilter:
   m_ObjectHideFlags: 0
