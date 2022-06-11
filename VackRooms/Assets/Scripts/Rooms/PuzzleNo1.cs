@@ -18,6 +18,8 @@ public class PuzzleNo1 : MonoBehaviour
     public GameObject[] buttons;
     public GameObject doors;
     public GameObject companionCube;
+    public GameObject toPuzzle1;
+    public GameObject toPuzzle2;
 
     private float counter = 0f;
 
@@ -113,6 +115,8 @@ public class PuzzleNo1 : MonoBehaviour
 
             doors.SetActive(false);
             companionCube.SetActive(true);
+            toPuzzle1.SetActive(false);
+            toPuzzle2.SetActive(true);
             return;
         }
 

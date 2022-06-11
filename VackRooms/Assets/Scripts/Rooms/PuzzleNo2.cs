@@ -8,6 +8,8 @@ public class PuzzleNo2 : MonoBehaviour
     public GameObject room;
     public GameObject tripod;
     public GameObject cCSpawnPoint;
+    public GameObject toPuzzle2;
+    public GameObject toPuzzle3;
 
     [SerializeField]
     private CompanionCubeBehaviour cCB;
@@ -32,6 +34,8 @@ public class PuzzleNo2 : MonoBehaviour
         {
             room.SetActive(true);
             tripod.SetActive(false);
+            toPuzzle2.SetActive(false);
+            toPuzzle3.SetActive(true);
             companionCube.transform.position = cCSpawnPoint.transform.position;
             asserted = false;
         }
