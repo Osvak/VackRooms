@@ -12,6 +12,7 @@ public class IntroScript : MonoBehaviour
     void Start()
     {
         mixers[0].audioMixer.SetFloat("Volume F", -80.0f);
+        mixers[2].audioMixer.SetFloat("Volume O", -80.0f);
     }
 
     // Update is called once per frame
