@@ -15,6 +15,7 @@ Our game is based on the creepypasta of the Backrooms, a mysterious and labyrint
 - Immersive audio based on the Backrooms lore.
 - Labyrinthine rooms.
 - Feeling of being lost and fear. >:)
+
 ## Controls
 | Button | Response |
 |--|--|
@@ -29,6 +30,9 @@ Our game is based on the creepypasta of the Backrooms, a mysterious and labyrint
 | [Carles Garriga](https://github.com/FireAlfa) | 3D Modeller and Artist |
 | [Oscar Canales](https://github.com/Osvak) | Gameplay Programmer |
 | [Pau Motta](https://github.com/paumotta) | Game Designer |
+
+## Tested Devices
+The game has been tested so far only in the Oculus Quest 2 HDM's. We're looking forward to test it in other devices.
 
 ## [Latest Version](https://www.youtube.com/watch?v=TNOJSv7Lz4k)
 
