@@ -5,6 +5,7 @@ using UnityEngine;
 public class PuzzleNo3 : MonoBehaviour
 {
     public GameObject presurePlate;
+    public GameObject player;
 
     [SerializeField]
     private PressurePlateBehaviour pPB;
@@ -24,7 +25,7 @@ public class PuzzleNo3 : MonoBehaviour
     {
         if(pPB.activated)
         {
-            Debug.Log("TE PASASTE EL GEIMU WEBON");
+            player.transform.position = new Vector3(1.3f, 150.1f, 3.0f);
         }
     }
 }
