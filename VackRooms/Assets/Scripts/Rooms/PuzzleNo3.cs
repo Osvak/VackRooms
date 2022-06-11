@@ -28,10 +28,11 @@ public class PuzzleNo3 : MonoBehaviour
     {
         if(pPB.activated)
         {
-            player.transform.position = new Vector3(1.3f, 150.1f, 3.0f);
+            player.transform.position = new Vector3(0f, 150.1f, 3.0f);
             mixers[0].audioMixer.SetFloat("Volume F", -80.0f);
             mixers[1].audioMixer.SetFloat("Volume I", -80.0f);
             mixers[2].audioMixer.SetFloat("Volume O", -5.0f);
+            GameObject.Find("Ray Interactor").enabled = false;
         }
     }
 }
