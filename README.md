@@ -32,7 +32,7 @@ Our game is based on the creepypasta of the Backrooms, a mysterious and labyrint
 | [Pau Motta](https://github.com/paumotta) | Game Designer |
 
 ## Video Demonstration
-[![Video Demonstration](https://img.youtube.com/vi/euik1Zrs30w/0.jpg)](https://www.youtube.com/watch?v=euik1Zrs30w)
+[![Video Demonstration](https://img.youtube.com/vi/JWwPoEVgrf8/0.jpg)](https://www.youtube.com/watch?v=JWwPoEVgrf8)
 
 ## Tested Devices
 The game has been tested so far only in the Oculus Quest 2 HDM's. We're looking forward to test it in other devices.
