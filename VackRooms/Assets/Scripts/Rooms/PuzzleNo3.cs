@@ -32,7 +32,7 @@ public class PuzzleNo3 : MonoBehaviour
             mixers[0].audioMixer.SetFloat("Volume F", -80.0f);
             mixers[1].audioMixer.SetFloat("Volume I", -80.0f);
             mixers[2].audioMixer.SetFloat("Volume O", -5.0f);
-            GameObject.Find("Ray Interactor").enabled = false;
+            //GameObject.Find("Ray Interactor").SetActive(false);
         }
     }
 }
